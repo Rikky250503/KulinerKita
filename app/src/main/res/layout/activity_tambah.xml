@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     android:layout_margin="6dp"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".Activity.TambahActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tambah Data Kuliner"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"/>
@@ -41,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
         android:text="Simpan"
         android:textSize="21sp"/>
 
