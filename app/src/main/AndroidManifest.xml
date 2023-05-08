@@ -23,10 +23,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UbahActivity"
+            android:name=".Activity.UbahActivity"
             android:exported="false" />
         <activity
-            android:name=".TambahActivity"
+            android:name=".Activity.TambahActivity"
             android:exported="false" />
     </application>
 
