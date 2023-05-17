@@ -32,6 +32,6 @@ public interface APIRequestData {
 
     @FormUrlEncoded
     @POST("delete.php")
-    Call<ModelResponse> ardDelate(
+    Call<ModelResponse> ardDelete(
             @Field("id") String id);
 }

@@ -36,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Deskripsi Singkat"
+        android:maxLength="20"
         android:textSize="21sp"/>
 
     <Button

@@ -36,7 +36,7 @@ public class AdapterKuliner extends  RecyclerView.Adapter<AdapterKuliner.VHKulin
     public void onBindViewHolder(@NonNull VHKuliner holder, int position) {
         ModelKuliner MK = listkuliner.get(position);
         holder.tvId.setText(MK.getId());
-        holder.tvNama.setText(MK.getNama());
+        holder.tvNama.setText(MK.getId());
         holder.tvAsal.setText(MK.getAsal());
         holder.tvDeskripsiSingkat.setText(MK.getDeskripsi_singkat());
     }
