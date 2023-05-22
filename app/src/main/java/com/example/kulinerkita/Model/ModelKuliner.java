@@ -1,21 +1,21 @@
 package com.example.kulinerkita.Model;
 
 public class ModelKuliner {
-    private int id, nama, asal, deskripsi_singkat;
+    private String id, nama, asal, deskripsi_singkat;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public int getNama() {
+    public String getNama() {
         return nama;
     }
 
-    public int getAsal() {
+    public String getAsal() {
         return asal;
     }
 
-    public int getDeskripsi_singkat() {
+    public String getDeskripsi_singkat() {
         return deskripsi_singkat;
     }
 }

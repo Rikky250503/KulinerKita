@@ -23,7 +23,7 @@
         android:id="@+id/et_nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama Player"
+        android:hint="Nama Makanan"
         android:textSize="21sp"/>
     <EditText
         android:id="@+id/et_asal"
